@@ -65,9 +65,23 @@ Gmd = nx.MultiDiGraph()
 
 # # ---------------------- SHORTEST PATH -------------------------------------
 
-# edges = [(1,2),(2,3),(3,5),(4,6),(3,4),(6,7), (2,8),(8,9),(9,4)]
-# G.add_edges_from(edges)
+edges = [(1,2),(2,3),(3,5),(4,6),(3,4),(6,7), (2,8),(8,9),(9,4)]
+G.add_edges_from(edges)
 # nx.draw_planar(G, with_labels = True)
 
 # print(nx.shortest_path_length(G,1,3))
 # plt.show()
+
+# # ----------------------- CENTRALITY ----------------------------------
+
+# G = nx.complete_graph(4)
+
+nx.draw(G, with_labels = True)
+
+print(nx.degree_centrality(G))
+print(nx.degree_centrality(G))
+print(nx.degree_centrality(G))
+print(nx.degree_centrality(G))
+
+plt.show()
+
