@@ -243,5 +243,3 @@ Connected components are maximal subgraphs where any two nodes are connected:
   ```python
   num_components = nx.number_connected_components(G)
   ```
-
-This guide provides an overview of essential NetworkX functionalities. For more details and advanced features, refer to the [NetworkX Documentation](https://networkx.org/documentation/stable/).
