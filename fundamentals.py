@@ -21,7 +21,7 @@ Gmd = nx.MultiDiGraph()
 # # ------------------- ADDING EDGES FROM A LIST ----------------------------------
 
 # edges = [(1,2),(2,3),("A","B"),("4","4"),("A", "C")]
-# G.add_edges_from(edges)
+# Gd.add_edges_from(edges)
 # nx.draw_spring(G, with_labels = True)
 # # plt.show()
 
@@ -42,10 +42,32 @@ Gmd = nx.MultiDiGraph()
 
 ## ----------------------------------------- VISUALISATIONS ----------------------------------------
 
-G = nx.from_numpy_array(np.array([[0,1,0],[1,0,0],[1,1,0]]))
+# G = nx.from_numpy_array(np.array([[0,1,0],[1,0,0],[1,1,0]]))
 
-nx.draw_spectral(G, with_labels = True)
-plt.show()
+# nx.draw_spectral(G, with_labels = True)
+# plt.show()
 
-print(nx.adjacency_matrix(G))
-plt.show()
+# print(nx.adjacency_matrix(G))
+# plt.show()
+
+## ------------------------- COMPLETE GRAPH ---------------------------------
+
+# Gd = nx.complete_graph(4)
+
+# # ------------------------- DEGREE ---------------------------------
+
+# print(dict(Gd.in_degree)["B"])
+
+# nx.draw(Gd, with_labels = True)
+
+# plt.show()
+
+
+# # ---------------------- SHORTEST PATH -------------------------------------
+
+# edges = [(1,2),(2,3),(3,5),(4,6),(3,4),(6,7), (2,8),(8,9),(9,4)]
+# G.add_edges_from(edges)
+# nx.draw_planar(G, with_labels = True)
+
+# print(nx.shortest_path_length(G,1,3))
+# plt.show()
