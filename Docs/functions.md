@@ -1,6 +1,8 @@
-# NetworkX Guide
+# NetworkX Fundamentals
 
-This guide covers key aspects of the NetworkX library, including graph types, node and edge management, visualizations, degree calculations, shortest path algorithms, centrality measures, and more.
+Key aspects of the NetworkX library, including graph types, node and edge management, visualizations, degree calculations, shortest path algorithms, centrality measures, and more in a nutshell.
+
+Full Documentation can be accessed <a href = "https://networkx.org/documentation/stable/index.html" target = "blank">here.<a/>
 
 ## Table of Contents
 
