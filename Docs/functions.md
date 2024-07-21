@@ -2,7 +2,7 @@
 
 Key aspects of the NetworkX library, including graph types, node and edge management, visualizations, degree calculations, shortest path algorithms, centrality measures, and more in a nutshell.
 
-Full Documentation can be accessed <a href = "https://networkx.org/documentation/stable/index.html" target = "blank">here<a/>.
+Full Documentation can be accessed <a href = "https://networkx.org/documentation/stable/index.html" target = "blank">here.<a/>
 
 ## Table of Contents
 
